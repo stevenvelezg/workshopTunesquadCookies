@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Order The Slam Jam</title>
+    <link rel="stylesheet" href="./css/default.css"></link>
+  </head>
+  <body>
+    <h1>Welcome to the Tune Stadium's Concesions Stand!</h1>
+    <h3>Choose your order!</h3>
+
+    <div class="photoItem">
+      <img src="dinoNuggets.jpeg">
+      <button type="button" onclick="addChickenCount()">+1</button>
+      <div class="item" id="Chickens">Dino Nuggets: 0</div>
+      <button type="button" onclick="removeChickenCount()">-1</button>
+    </div>
+
+    <div class="photoItem">
+      <img src="french-fries.jpg">
+      <button type="button" onclick="addFriesCount()">+1</button>
+      <div class="item" id="Fries">Fries: 0</div>
+      <button type="button" onclick="removeFriesCount()">-1</button>
+    </div>
+
+    <div class="photoItem">
+      <img src="chips.jpg">
+      <button type="button" onclick="addChipCount()">+1</button>
+      <div class="item" id="Chip">Chips: 0</div>
+      <button type="button" onclick="removeChipCount()">-1</button>
+    </div>
+    <br>
+    <br>
+    <img class="submit"src="feelsGoodMan.jpg" onclick="submitOrder()">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/cookies.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>
